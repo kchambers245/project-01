@@ -16,20 +16,7 @@
         <link rel="stylesheet" href="css/override.css">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-
-  <style>
-    /* Prevents slides from flashing */
-    #slides {
-      display:none;
-    }
-  </style>
-
-  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-  <script src="js/vendor/jquery.slides.min.js"></script>
-
     </head>
-
-
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
@@ -58,7 +45,7 @@
         <li><a href="#">Link</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-
+        
           <ul class="dropdown-menu">
             <li><a href="#">Action</a></li>
             <li><a href="#">Another action</a></li>
@@ -72,39 +59,58 @@
   </div><!-- /.container-fluid -->
 </nav>
 
-  <div id="slides">
-    <img src="http://placehold.it/940x528">
-    <img src="http://placehold.it/940x528">
-    <img src="http://placehold.it/940x528">
-    <img src="http://placehold.it/940x528">
-    <img src="http://placehold.it/940x528">
+
+<div class="row">
+<div class="col-md-8 col-md-offset-2">
+<div class="alert alert-warning alert-dismissable">
+  <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+  <strong>Reminder!</strong> You have <strong>3</strong> items due on 03/13/14.
+</div>
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-md-12"><h1>Account</h1></div>
+</div>
+</div>
+
+<div class="container">
+  <div class="row"> 
+      <div class="col-md-12"><h2>Name Name</h2></div>
   </div>
+</div>
 
-  <div class="footer">
-  <div class="col-md-12">
-  Footer footer footer
-  </footer>
-  </div></div>
+<div class="container">
+<div class="row">
 
-  <script>
-    $(function() {
-      $('#slides').slidesjs({
-        width: 940,
-        height: 528,
-        navigation: {
-          effect: "slide"
-        },
-        pagination: {
-          effect: "slide"
-        },
-        effect: {
-          fade: {
-            speed: 400
-          }
-        }
-      });
-    });
-  </script>
+<div class="col-md-6"><h3>Information information information information information information information information information. </h3></div>
+<div class="col-md-6"><h3>Information information information information information information information information information. </h3></div>
+
+</div>
+</div>
+
+<div class="container">
+  <div class="row"> 
+      <div class="col-md-12"><h4>Recommended for you:</h4></div>
+  </div>
+</div>
+
+<div id="listcontainer">
+<ul>
+<section class="container">
+  <div class="row">
+    <li><div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div></li>
+  </div>
+</section>  
+</ul>
+</div>
 
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -127,3 +133,4 @@
         <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>    
     </body>
 </html>
+                         
