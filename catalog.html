@@ -26,12 +26,18 @@
 
         <!-- Add your site or application content here -->
         
-        <nav class="navbar navbar-default" role="navigation">
+        
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-
-      <a class="navbar-brand" href="#">ENOCH PRATT FREE LIBRARY</a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png"> ENOCH PRATT FREE LIBRARY</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -39,23 +45,55 @@
 
       <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="SEARCH">
+          <input type="text" class="form-control" placeholder="Search">
         </div>
-        <button type="submit" class="btn btn-default">Go!</button>
+        <button type="submit" class="btn btn-default"><a class="subbutton" href="results.html">Submit</a></button>
       </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
+     
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<nav class="navbar navbar-default navbar-fixed-top2" role="navigation">
+  <div class="container-fluid">
+
+
+      <ul class="nav navbar-nav navbar-left">
+
+        <li><a href="catalog.html">Catalog</a></li>
+
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-        
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="#">Research Help</a></li>
+            <li><a href="#">Computer Centers</a></li>
+            <li><a href="#">Meeting Rooms</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Teens</a></li>
           </ul>
         </li>
+
+        <li><a href="#">Calendar</a></li>
+
+                <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Mision</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Vitals</a></li>
+          </ul>
+        </li>
+
+                <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support Us <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Giving Options</a></li>
+            <li><a href="#">Volunteer</a></li>
+          </ul>
+        </li>
+
+        <li><a href="account.html">Account</a></li>
+
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -77,7 +115,7 @@
     <div class="input-group">
       <input type="text" class="form-control" placeholder="SEARCH">
       <span class="input-group-btn">
-        <button class="btn btn-default" type="button">Go!</button>
+        <button class="btn btn-default" type="button"><a class="subbutton" href="results.html">Go!</a></button>
       </span>
     </div><!-- /input-group -->
   </div><!-- /.col-lg-6 -->
@@ -87,46 +125,70 @@
 <div class=" col-md-8 col-md-offset-2">
   <div class="btn-group ">
   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    Action <span class="caret"></span>
+    Category <span class="caret"></span>
   </button>
   <ul class="dropdown-menu" role="menu">
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-    <li class="divider"></li>
-    <li><a href="#">Separated link</a></li>
+    <li><a href="#">ISBN</a></li>
+    <li><a href="#">Author</a></li>
+    <li><a href="#">Title</a></li>
+    <li><a href="#">Subject</a></li>
+    <li><a href="#">Series</a></li>
+
   </ul>
 </div>
 
 <div class="btn-group">
   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    Action <span class="caret"></span>
+    Media <span class="caret"></span>
   </button>
   <ul class="dropdown-menu" role="menu">
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-    <li class="divider"></li>
-    <li><a href="#">Separated link</a></li>
+    <li><a href="#">Audio</a></li>
+    <li><a href="#">Books</a></li>
+    <li><a href="#">DVDs</a></li>
+    <li><a href="#">Electronic Resource</a></li>
+    <li><a href="#">Film 16mm</a></li>
+    <li><a href="#">Government Documents</a></li>
+    <li><a href="#">Magazines and Newspapers</a></li>
+    <li><a href="#">Microfilm</a></li>
+    <li><a href="#">Slides</a></li>
+    <li><a href="#">Video</a></li>
   </ul>
 </div>
 
 <div class="btn-group">
   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    Action <span class="caret"></span>
+    Library <span class="caret"></span>
   </button>
   <ul class="dropdown-menu" role="menu">
-    <li><a href="#">Action</a></li>
-    <li><a href="#">Another action</a></li>
-    <li><a href="#">Something else here</a></li>
-    <li class="divider"></li>
-    <li><a href="#">Separated link</a></li>
+      <li><a href="#">Brooklyn</a></li>
+      <li><a href="#">Canton</a></li>
+      <li><a href="#">Central</a></li>
+      <li><a href="#">Cherry Hill</a></li>
+      <li><a href="#">Clifton</a></li>
+      <li><a href="#">Edmondson Avenue</a></li>
+      <li><a href="#">Forest Park</a></li>
+      <li><a href="#">Govans</a></li>
+      <li><a href="#">Hamilton</a></li>
+      <li><a href="#">Hampden</a></li>
+      <li><a href="#">Herring Run</a></li>
+      <li><a href="#">Light Street</a></li>
+      <li><a href="#">Northwood</a></li>
+      <li><a href="#">Orleans Street</a></li>
+      <li><a href="#">Patterson Park</a></li>
+      <li><a href="#">Pennsylvania Avenue</a></li>
+      <li><a href="#">Reistertown Road</a></li>
+      <li><a href="#">Roland Park</a></li>
+      <li><a href="#">Southeast Anchor</a></li>
+      <li><a href="#">Walbrook</a></li>
+      <li><a href="#">Washington Village</a></li>
+      <li><a href="#">Waverly</a></li>
+
   </ul>
 </div>
 
 <div class="btn-group">
   <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-    Action <span class="caret"></span>
+    More Options <span class="caret"></span>
   </button>
   <ul class="dropdown-menu" role="menu">
     <li><a href="#">Action</a></li>
@@ -140,11 +202,67 @@
 </div>
 </div>
 
-  <div class="footer">
-  <div class="col-md-12">
-  Footer footer footer
-  </footer>
-  </div></div>
+
+
+<a class="button2" href="#">Popular:</a><br>
+
+
+<div class="listcontainer">
+<ul>
+<section class="container">
+  <div class="row">
+    <li><div class="col-md-2 col-sm-4 col-xs-6"><img src="img/popular1.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/popular2.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/popular3.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/popular4.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/popular5.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/popular6.jpg" class="img-responsive shadow" alt="Responsive image"></div></li>
+  </div>
+</section>  
+</ul>
+</div>
+
+<a class="button2" href="#">Gardening:</a><br>
+
+<div id="listcontainer">
+<ul>
+<section class="container">
+  <div class="row">
+    <li><div class="col-md-2 col-sm-4 col-xs-6"><img src="img/garden1.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/garden2.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/garden3.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/garden4.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/garden5.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/garden6.jpg" class="img-responsive shadow" alt="Responsive image"></div></li>
+  </div>
+</section>  
+</ul>
+</div>
+
+<a class="button2" href="results.html">Classics:</a><br>
+
+<div id="listcontainer">
+<ul>
+<section class="container">
+  <div class="row">
+    <li><div class="col-md-2 col-sm-4 col-xs-6"><a class="imglink" href="media.html"><img src="img/classics1.jpg" class="img-responsive shadow" alt="Responsive image"></a></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/classics2.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/classics3.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/classics4.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/classics5.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/classics6.jpg" class="img-responsive shadow" alt="Responsive image"></div></li>
+  </div>
+</section>  
+</ul>
+</div>
+
+
+    <div class="footer">
+        <div class="col-md-12">
+        <a class="footlink" href="#">History</a>  <a class="footlink" href="#">Locations</a>  <a class="footlink" href="#">Hours</a>  <a class="footlink" href="#">Careers</a>  <a class="footlink" href="#">Site Map</a><br>
+            © 2014 Enoch Pratt Free Library, Baltimore, Maryland.
+        </div>
+    </div>
 
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

@@ -1,10 +1,7 @@
-}
 .section{
-    margin:0px;
-    bottom:0px;
+    padding-top: 110px;
+    margin:0 auto;
     width:960px;
-    float:left;
-    height:100%;
     text-shadow:1px 1px 2px #f0f0f0;
 }
 .section h2{
@@ -17,11 +14,11 @@
 .black{
     color:#fff;
    
-    background:#000 url(../images/black.jpg) no-repeat top right;
+    background:#fff;
 }
 .white{
     color:#000;
-    background:#fff url(../images/white.jpg) no-repeat top right;
+    background:#fff;
 }
 
 .section ul{

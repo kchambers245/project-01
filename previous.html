@@ -14,6 +14,7 @@
 
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/override.css">
+
         
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -23,13 +24,17 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        
-        <nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-
-      <a class="navbar-brand" href="#">ENOCH PRATT FREE LIBRARY</a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png"> ENOCH PRATT FREE LIBRARY</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -37,153 +42,133 @@
 
       <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
-          <input type="text" class="form-control" placeholder="SEARCH">
+          <input type="text" class="form-control" placeholder="Search">
         </div>
-        <button type="submit" class="btn btn-default">Go!</button>
+        <button type="submit" class="btn btn-default"><a class="subbutton" href="results.html">Submit</a></button>
       </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-        
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
+     
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
+<nav class="navbar navbar-default navbar-fixed-top2" role="navigation">
+  <div class="container-fluid">
 
-<div class="container">
-  <div class="row"> 
-      <div class="col-md-12"><h1>Previously Viewed</h1></div>
-  </div>
-</div>
-<br>
 
-<div class="container">
-  <div class="row"> 
-      <div class="col-md-2"><h4>Unsorted:</h4></div>
-  </div>
+      <ul class="nav navbar-nav navbar-left">
+
+        <li><a href="catalog.html">Catalog</a></li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Research Help</a></li>
+            <li><a href="#">Computer Centers</a></li>
+            <li><a href="#">Meeting Rooms</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Teens</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#">Calendar</a></li>
+
+                <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Mision</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Vitals</a></li>
+          </ul>
+        </li>
+
+                <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support Us <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Giving Options</a></li>
+            <li><a href="#">Volunteer</a></li>
+          </ul>
+        </li>
+
+        <li><a href="account.html">Account</a></li>
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+ 
+
+<div class="col-md-12">
+<h1>Previously Checked Out</h1>
 </div>
+
+<div class="col-md-12">
+<h1 class="subhead2">Drag to sort:</h1>
+</div><br><br>
+
 
 <div id="listcontainer">
 <ul>
 <section class="container">
   <div class="row">
-    <li><div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
-    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
-    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
-    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
-    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
-    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div></li>
+    <li>
+    <div class="multidraggable"><div class="col-md-2 col-sm-4 col-xs-6"><img src="img/garden6.jpg" class="img-responsive shadow" alt="Responsive image"></div></div>
+    <div class="multidraggable"><div class="col-md-2 col-sm-4 col-xs-6"><img src="img/popular2.jpg" class="img-responsive shadow" alt="Responsive image"></div></div>
+    <div class="multidraggable"><div class="col-md-2 col-sm-4 col-xs-6"><img src="img/classics1.jpg" class="img-responsive shadow" alt="Responsive image"></div></div>
+    <div class="multidraggable"><div class="col-md-2 col-sm-4 col-xs-6"><img src="img/classics2.jpg" class="img-responsive shadow" alt="Responsive image"></div></div>
+    <div class="multidraggable"><div class="col-md-2 col-sm-4 col-xs-6"><img src="img/garden5.jpg" class="img-responsive shadow" alt="Responsive image"></div></div>
+    <div class="multidraggable"><div class="col-md-2 col-sm-4 col-xs-6"><img src="img/popular6.jpg" class="img-responsive shadow" alt="Responsive image"></div></div></li>
   </div>
 </section>  
 </ul>
 </div>
 
-<div class="row">
-<div class="col-md-2">
-<button type="button" class="btn btn-default">Sort</button></div>
-<div class="col-md-2 col-md-offset-8">
-<ul class="pagination">
-  <li class="disabled"><a href="#">&laquo;</a></li>
-  <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
-</ul>
-</div>
-</div>
+<div class="col-md-12">
+<h1 class="subhead2">Informational Books:</h1>
+</div><br><br>
 
-<div class="container">
-  <div class="row"> 
-      <div class="col-md-12"><h4>By this author:</h4></div>
-  </div>
-</div>
 
 <div id="listcontainer">
 <ul>
 <section class="container">
   <div class="row">
-    <li><div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
-    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
-    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
-    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
-    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
-    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div></li>
+    <div id="background">
+    <li><div class="col-md-2 col-sm-4 col-xs-6"><img src="img/garden1.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/garden2.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/garden3.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/garden4.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6">&nbsp;</div></li>
+    <div class="col-md-2 col-sm-4 col-xs-6">&nbsp;</div></li>
   </div>
 </section>  
 </ul>
-</div>
+</div></div>
 
-<div class="col-md-2 col-md-offset-10">
-<ul class="pagination">
-  <li class="disabled"><a href="#">&laquo;</a></li>
-  <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
-</ul>
-</div>
-
-
-<div class="container">
-  <div class="row"> 
-      <div class="col-md-12"><h4>With this subject:</h4></div>
-  </div>
-</div>
+<div class="col-md-12">
+<h1 class="subhead2">Good Reads:</h1>
+</div><br><br>
 
 <div id="listcontainer">
 <ul>
 <section class="container">
   <div class="row">
-    <li><div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
-    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
-    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
-    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
-    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
-    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div></li>
-  </div>
-</section>  
-</ul>
-</div>
-
-<div class="col-md-2 col-md-offset-10">
-<ul class="pagination">
-  <li class="disabled"><a href="#">&laquo;</a></li>
-  <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
-</ul>
-</div>
-
-
-<div class="container">
-  <div class="row"> 
-      <div class="col-md-12"><h4>In this series:</h4></div>
-  </div>
-</div>
-
-<div id="listcontainer">
-<ul>
-<section class="container">
-  <div class="row">
-    <li><div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
-    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
-    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
-    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
-    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div>
-    <div class="col-md-2 col-sm-4 col-xs-6"><img src="http://placehold.it/583x783" class="img-responsive shadow" alt="Responsive image"></div></li>
+    <li><div class="col-md-2 col-sm-4 col-xs-6"><a class="imglink" href="media.html"><img src="img/classics5.jpg" class="img-responsive shadow" alt="Responsive image"></a></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/popular4.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/popular3.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6"><img src="img/classics4.jpg" class="img-responsive shadow" alt="Responsive image"></div>
+    <div class="col-md-2 col-sm-4 col-xs-6">&nbsp;</div></li>
+    <div class="col-md-2 col-sm-4 col-xs-6">&nbsp;</div></li>
   </div>
 </section>  
 </ul>
 </div>
 
 
-  <div class="footer">
-  <div class="col-md-12">
-  Footer footer footer
-  </footer>
-  </div></div>
+    <div class="footer">
+        <div class="col-md-12">
+        <a class="footlink" href="#">History</a>  <a class="footlink" href="#">Locations</a>  <a class="footlink" href="#">Hours</a>  <a class="footlink" href="#">Careers</a>  <a class="footlink" href="#">Site Map</a><br>
+            © 2014 Enoch Pratt Free Library, Baltimore, Maryland.
+        </div>
+    </div>
 
 
 
@@ -195,6 +180,19 @@
         <script src="js/vendor/bootstrap/dropdown.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
+   <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+  <script type="text/javascript">
+    google.load("jquery", "1.3.2");
+    google.load("jqueryui", "1.7.2");
+  </script> 
+        <script type="text/javascript" src="js/vendor/ui.multidraggable.js"></script>
+
+          <script type="text/javascript">
+  $(function() {
+    $(".multidraggable").multidraggable();
+  });
+  </script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
